@@ -19,7 +19,7 @@ const Navbar = () => {
         </div>
         <div className='flex justify-center items-center'>
         <div className='flex justify-center items-center rounded-full border-2 bg-white text-black'>
-            <input type="text"  className='bg-white rounded-full w-44 focus:outline-none placeholder:pl-3' placeholder='Search ...'/>
+            <input type="text"  className='outline-none border-none bg-white rounded-full w-44 focus:outline-none placeholder:pl-3' placeholder='Search ...'/>
             <FaSearch  size={30} className='text-black rounded-full p-2 bg-orange-500'/>
         </div>
         <div>
