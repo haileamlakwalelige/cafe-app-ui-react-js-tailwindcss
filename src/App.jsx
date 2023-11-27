@@ -1,5 +1,6 @@
 import Deliver from './components/Deliver';
 import Enjoy from './components/Enjoy';
+import Gallery from './components/Gallery';
 import Navbar from './components/Navbar';
 import Offer from './components/Offer';
 import Reviews from './components/Reviews';
@@ -16,6 +17,7 @@ export default function App() {
       <Enjoy />
       <Deliver />
       <Offer />
+      <Gallery />
     </div>
   );
 }
